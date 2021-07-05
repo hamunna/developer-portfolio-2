@@ -14,6 +14,7 @@ h1 {
 
 .half-width {
     width: 50%;
+    padding: 10px;
 }
 
 .text-uppercase {
@@ -56,11 +57,16 @@ a {
 #header-section {
     width: 90%;
     min-height: 30vw;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
     padding: 3vw;
     margin-top: 20px;
     box-shadow: 0 0 14px rgb(255, 0, 64);
+    border-radius: 1vw;
+}
+
+#header-section, #dream-big {
+    margin-bottom: 10vw;
 }
 
 .header-name{
@@ -79,3 +85,9 @@ a {
 }
 
 /* Dream Big CSS here... */
+
+/* Experience CSS here... */
+
+.ex-boxes {
+    
+}
