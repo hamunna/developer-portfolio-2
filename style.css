@@ -81,13 +81,51 @@ a {
 }
 
 .pink-text {
-    color: rgb(255, 0, 64)
+    color: rgb(255, 0, 64);
 }
 
 /* Dream Big CSS here... */
 
 /* Experience CSS here... */
 
+.text-center {
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid rgb(255, 0, 64);
+    width: 25vw;
+    margin: auto;
+}
+
+.text-center, #dream-big h1 {
+    font-size: 4vw;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(255, 0, 64);
+}
+
+.experience-inner {
+    justify-content: space-around;
+}
+
 .ex-boxes {
-    
+    width: 40%;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    min-height: 200px;
+    box-shadow: 0 0 14px rgb(255, 0, 64);
+}
+
+.secondary-h-tag {
+    font-size: 2.8vw;
+}
+
+.tertiary-h-tag {
+    font-size: 2vw;
+    color: #ff0040;
+}
+
+#db-img-section img {
+    width: 38vw;
+    position: relative;
+    top: -4vw;
+    left: 2vw;
 }
