@@ -110,8 +110,8 @@ a {
     width: 40%;
     margin-top: 5vw;
     margin-bottom: 5vw;
-    min-height: 200px;
-    box-shadow: 0 0 14px rgb(255, 0, 64);
+    min-height: 20vw;
+    box-shadow: 0 0 6px rgb(255, 0, 64);
 }
 
 .secondary-h-tag {
@@ -120,6 +120,9 @@ a {
 
 .tertiary-h-tag {
     font-size: 2vw;
+}
+
+.ex-boxes .tertiary-h-tag {
     color: #ff0040;
 }
 
@@ -128,4 +131,8 @@ a {
     position: relative;
     top: -4vw;
     left: 2vw;
+}
+
+.text-center-2 {
+    text-align: center;
 }
